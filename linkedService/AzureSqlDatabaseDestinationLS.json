@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "server=tcp:adfservergroupn.database.windows.net,1433;initial catalog=DBgroupN;persist security info=False;user id=sqladmin;multipleactiveresultsets=False;encrypt=True;trustservercertificate=False;connection timeout=30",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4ZWZiODcxOS0yNmQwLTQwYjctODQyOS01MzY4OWM0ZmI2MWIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=adfservergroupn.database.windows.net;initial catalog=DBgroupN;user id=sqladmin;server=tcp:adfservergroupn.database.windows.net,1433;persist security info=False;multipleactiveresultsets=False;trustservercertificate=False",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2YmQxNjFmZS02NDkyLTQ3ZjMtYWRlMi0yMWViOWRlMmI2MWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
